@@ -8,10 +8,10 @@ for i in range(0, 400, 50):
 for i in range(8):
     for j in range(3):
         if (i+j) % 2:
-            canvas.create_oval(i * 50, j * 50, i * 50 + 50, j * 50 + 50, fill="#ff0")
+            canvas.create_oval(i * 50, j * 50, i * 50 + 50, j * 50 + 50, fill="#FFF")
     for j in range(5,8):
         if (i+j) % 2:
-            canvas.create_oval(i * 50, j * 50, i * 50 + 50, j * 50 + 50, fill="#0ff")
+            canvas.create_oval(i * 50, j * 50, i * 50 + 50, j * 50 + 50, fill="#FFF")
 
 canvas.pack()
 win.mainloop()
